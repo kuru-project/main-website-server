@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/', to: redirect('https://web.kuru-anime.com/')
+  get '/', to: redirect('http://kuru-anime.com/')
 end
