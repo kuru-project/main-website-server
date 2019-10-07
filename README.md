@@ -1,24 +1,28 @@
-# README
+# Kuru Anime (Server)
+The back-end of Kuru Anime
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Version
+- Rails ~> 6.0.0
+- Ruby ~> 2.6.4
 
-Things you may want to cover:
+## Set-up
+You need to have **Docker** and **Docker Compose** installed on your machine to be able to run the following commands.
 
-* Ruby version
+```
+# Open your default terminal and run the following
+➜ docker-compose build                              # Builds the project
+➜ docker-compose run web rake db:create             # Builds the database
+➜ docker-compose up                                 # Starts the server
+```
 
-* System dependencies
+## Installing a new Gem
+To install a new gem please edit the `Gemfile` and run the following commands afterwards.
+```
+# Open your default terminal and run the following
+➜ docker-compose down                               # Stops the server
+➜ docker-compose run web bundle install             # Run 'bundle install' inside the container
+➜ docker-compose up --build                         # Starts and rebuilds the project
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Dig Deeper
+To find out more about the set-up you can check the [rails guide](https://docs.docker.com/compose/rails/) on Docker's website.
