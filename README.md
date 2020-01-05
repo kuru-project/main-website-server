@@ -5,6 +5,9 @@ The back-end of Kuru Anime
 - Rails ~> 6.0.0
 - Ruby ~> 2.6.4
 
+## Core Gems
+- [Devise Token Auth](https://github.com/lynndylanhurley/devise_token_auth) (Authentication)
+
 ## Set-up
 You need to have **Docker** and **Docker Compose** installed on your machine to be able to run the following commands.
 
