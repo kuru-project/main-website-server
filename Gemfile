@@ -27,10 +27,9 @@ gem 'rack-cors'
 
 # Authentication
 gem 'devise_token_auth'
-gem 'omniauth-github'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-apple'
+gem 'omniauth-twitter'
 gem 'omniauth-discord'
 
 group :development, :test do
