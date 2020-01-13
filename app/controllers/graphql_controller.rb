@@ -1,5 +1,6 @@
 class GraphqlController < ApplicationController
-  skip_before_action :authenticate_user!
+  include DeviseTokenAuth::Concerns::SetUserByToken
+  before_action :authenticate_user!
 
   def execute
     variables = ensure_hash(params[:variables])
