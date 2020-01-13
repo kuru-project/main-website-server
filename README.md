@@ -7,6 +7,7 @@ The back-end of Kuru Anime
 
 ## Core Gems
 - [Devise Token Auth](https://github.com/lynndylanhurley/devise_token_auth) (Authentication)
+- [GraphQL](https://graphql-ruby.org/) (Data Management) [[Tutorial](https://www.howtographql.com/graphql-ruby/0-introduction/)]
 
 ## Set-up
 You need to have **Docker** and **Docker Compose** installed on your machine to be able to run the following commands.
