@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM ruby:2.6.4
 RUN apt-get update -qq && apt-get install -y postgresql-client
 RUN mkdir /myapp
 WORKDIR /myapp
