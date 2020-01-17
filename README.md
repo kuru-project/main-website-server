@@ -6,7 +6,6 @@ The back-end of Kuru Anime
 - Ruby ~> 2.6.4
 
 ## Core Gems
-- [Devise Token Auth](https://github.com/lynndylanhurley/devise_token_auth) (Authentication)
 - [GraphQL](https://graphql-ruby.org/) (Data Management) [[Tutorial](https://www.howtographql.com/graphql-ruby/0-introduction/)]
 
 ## Set-up
