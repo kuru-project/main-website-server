@@ -1,3 +1,0 @@
-[submodule "discord-bot"]
-	path = bot
-	url = git@github.com:kuru-project/discord-bot.git
