@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:kuru-project/main-website-server.git",
   "author": "BosEriko <bos.eriko@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0"
+  }
 }
