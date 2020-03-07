@@ -7,5 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "ts-node --files ./src/index.ts"
   }
 }
