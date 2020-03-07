@@ -1,0 +1,8 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kuru-project/main-website-server.git",
+  "author": "BosEriko <bos.eriko@gmail.com>",
+  "license": "MIT"
+}
