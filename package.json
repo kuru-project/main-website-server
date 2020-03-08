@@ -14,7 +14,8 @@
   },
   "scripts": {
     "dev": "ts-node --files ./src/index.ts",
-    "submodule": "git submodule update --init --recursive"
+    "connect": "heroku git:remote -a kuru-anime-server",
+    "deploy": "git push heroku master"
   },
   "private": true,
   "workspaces": [

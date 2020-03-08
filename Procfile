@@ -1,2 +1,2 @@
 web: yarn start
-worker: yarn submodule && yarn workspace bot start
+worker: yarn workspace bot start
