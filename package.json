@@ -13,7 +13,7 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "yarn server && yarn workspace bot start",
+    "start": "yarn server; yarn workspace bot start;",
     "server": "ts-node ./src/index.ts",
     "dev": "ts-node --files ./src/index.ts",
     "submodule": "git submodule update --init --recursive",
