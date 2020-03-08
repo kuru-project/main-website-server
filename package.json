@@ -17,6 +17,6 @@
   },
   "private": true,
   "workspaces": [
-    "bot"
+    "discord-bot"
   ]
 }
