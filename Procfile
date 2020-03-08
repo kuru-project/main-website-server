@@ -1,2 +1,2 @@
-web: npm start;
-worker: cd bot; npm start;
+web: yarn start
+worker: yarn workspace bot start

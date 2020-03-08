@@ -14,5 +14,9 @@
   },
   "scripts": {
     "dev": "ts-node --files ./src/index.ts"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "bot"
+  ]
 }
