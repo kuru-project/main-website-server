@@ -13,11 +13,11 @@
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "yarn server; yarn workspace bot start;",
-    "server": "ts-node ./src/index.ts",
+    "start": "ts-node ./src/index.ts",
+    "bot": "yarn workspace bot start",
     "dev": "ts-node --files ./src/index.ts",
-    "submodule": "git submodule update --init --recursive",
     "connect": "heroku git:remote -a kuru-anime-server",
+    "submodule": "git submodule update --init --recursive",
     "push": "git push heroku master",
     "deploy": "yarn submodule && yarn push"
   },
