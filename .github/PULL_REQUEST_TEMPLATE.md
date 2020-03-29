@@ -1,4 +1,3 @@
-
 # Story Title
 
 [This is the Issue Title](https://github.com/kuru-project/main-website-server/issues/1)
