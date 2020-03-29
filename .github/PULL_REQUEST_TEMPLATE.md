@@ -10,4 +10,8 @@
 
 # How does the solution address the problem
 
-By solving it
+This PR will...
+
+# Linked issues
+
+Resolves #1
