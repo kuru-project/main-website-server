@@ -1,4 +1,6 @@
-const Koa = require('koa');
+import Koa from 'koa';
+import "reflect-metadata";
+
 const app = new Koa();
 
 app.use(async (ctx: any) => {
