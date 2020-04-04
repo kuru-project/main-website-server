@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "ts-node -r dotenv/config src/index.ts",
-    "watch": "ts-node-dev -r dotenv/config src/index.ts"
+    "watch": "ts-node-dev -r dotenv/config src/index.ts",
+    "typeorm:cli": "ts-node ./node_modules/typeorm/cli -f ./src/ormconfig.ts"
   }
 }
