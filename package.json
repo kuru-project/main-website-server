@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^13.9.0",
+    "dotenv": "^8.2.0",
     "koa": "^2.11.0",
     "pg": "^8.0.0",
     "reflect-metadata": "^0.1.13",
@@ -14,10 +15,11 @@
     "typeorm": "^0.2.24"
   },
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "dev": "ts-node --files src/index.ts"
+    "start": "ts-node -r dotenv/config src/index.ts",
+    "watch": "ts-node-dev -r dotenv/config src/index.ts"
   }
 }
