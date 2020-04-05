@@ -2,8 +2,8 @@ import { ConnectionOptions } from 'typeorm';
 
 const config: ConnectionOptions = {
   database: process.env.TYPEORM_DATABASE,
-  host: process.env.NODE_ENV !== 'production' ? process.env.TYPEORM_HOST : process.env.TYPEORM_HOST_PRODUCTION,
-  password: process.env.NODE_ENV !== 'production' ? process.env.TYPEORM_PASSWORD : process.env.TYPEORM_PASSWORD_PRODUCTION,
+  host: process.env.TYPEORM_HOST,
+  password: process.env.TYPEORM_PASSWORD,
   port: Number(process.env.TYPEORM_PORT),
   type: 'postgres',
   username: process.env.TYPEORM_USERNAME,
