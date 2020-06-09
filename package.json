@@ -11,10 +11,12 @@
     "ts-node": "^8.6.2"
   },
   "devDependencies": {
+    "@prisma/cli": "^2.0.0",
     "typescript": "^3.8.3"
   },
   "scripts": {
     "start": "ts-node src/index.ts",
-    "dev": "ts-node --files src/index.ts"
+    "dev": "ts-node --files src/index.ts",
+    "prisma": "npx prisma"
   }
 }
