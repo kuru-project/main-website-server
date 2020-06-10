@@ -18,6 +18,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "ts-node --files src/index.ts",
-    "prisma": "npx prisma"
+    "prisma": "npx prisma",
+    "prisma:migrate": "npx prisma generate"
   }
 }
