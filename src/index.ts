@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
+import Koa from 'koa';
 
-const Koa = require('koa');
 const app = new Koa();
 const prisma = new PrismaClient();
 
