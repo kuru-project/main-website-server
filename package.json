@@ -20,6 +20,8 @@
     "start": "ts-node src/index.ts",
     "dev": "ts-node --files src/index.ts",
     "prisma": "npx prisma",
-    "prisma:migrate": "npx prisma generate"
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate",
+    "prisma:introspect": "npx prisma introspect"
   }
 }
