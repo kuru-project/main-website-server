@@ -9,6 +9,7 @@
     "@prisma/client": "2.0.0",
     "@types/koa": "^2.11.3",
     "@types/node": "^13.9.0",
+    "dotenv": "^8.2.0",
     "koa": "^2.11.0",
     "koa-router": "^9.0.1",
     "nodemon": "^2.0.4",
