@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@kuru/controllers/*": [
+        "src/controllers/*"
+      ],
+      "@kuru/routes/*": [
+        "src/routes/*"
+      ],
+      "@kuru/interfaces/*": [
+        "src/interfaces/*"
+      ]
+    }
+  }
+}
