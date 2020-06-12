@@ -23,6 +23,7 @@
   "scripts": {
     "start": "ts-node -r dotenv/config src/index.ts",
     "dev": "nodemon",
+    "check:syntax": "eslint src/**",
     "prisma": "npx prisma",
     "prisma:generate": "npx prisma generate",
     "prisma:migrate": "npx prisma migrate",
