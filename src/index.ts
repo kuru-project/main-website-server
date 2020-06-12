@@ -5,6 +5,11 @@ const cors = require('@koa/cors');
 const app = new Koa();
 const router = new Router();
 
+router.get('/', (ctx, next) => {
+  ctx.redirect('http://web.kuru-anime.com/');
+  ctx.status = 301;
+});
+
 router.get('/hello', (ctx, next) => {
   ctx.body = 'Hello World';
 });
